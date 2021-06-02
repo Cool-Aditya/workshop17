@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscriber
+
+###
+GET http://localhost:3000/subscriber/6072f1fbeda3ae1a3422a4bb
+
+###
+POST http://localhost:3000/subscriber
+Content-Type: application/json
+
+{
+    "name": "Aditya Raj",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscriber/6072f1fbeda3ae1a3422a4bb
+
+###
+PATCH http://localhost:3000/subscriber/6072f900c1758c488484184c
+Content-Type: application/json
+
+{
+    "name":"Bhakti Dua"
+}
